@@ -2,8 +2,8 @@ import { redirect } from "next/navigation";
 import { getAllTopics, getPostsByTopic } from "@/lib/posts";
 
 export const metadata = {
-  title: "Home of Emil's Blog ",
-  description: "Markdown-powered blog",
+  title: "blumen zum selberpflücken",
+  description: "emils blog über alles mögliche",
 };
 
 const DEFAULT_TOPIC_SLUG = "tulpen";

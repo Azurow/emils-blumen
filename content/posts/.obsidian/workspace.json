@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:tulpen",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,12 +74,11 @@
               "title": "Lesezeichen"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 260.5
   },
   "right": {
     "id": "49d803d02afc3d59",
@@ -184,7 +183,7 @@
       "bases:Neue Base erstellen": false
     }
   },
-  "active": "4d3da9f69083df64",
+  "active": "6f172f213e3cb223",
   "lastOpenFiles": [
     "Unbenannt.md",
     "nummer-zwei.md",

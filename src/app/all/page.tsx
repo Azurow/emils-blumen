@@ -2,8 +2,8 @@ import Link from "next/link";
 import { getSortedPostsMeta } from "@/lib/posts";
 
 export const metadata = {
-  title: "All posts",
-  description: "All published blog posts",
+  title: "blumen zum selberpflücken",
+  description: "emils blog über alles mögliche",
 };
 
 export default function AllPostsPage() {
