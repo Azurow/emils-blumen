@@ -1,0 +1,99 @@
+.header {
+    margin-bottom: 24px;
+    background-color: white;
+}
+
+.stickyHeader {
+    position: sticky;
+    top: 0;
+}
+
+.container {
+  gap: 12px;
+  margin: 0 auto;
+  border-bottom: solid #d1d5db 1px ;
+  padding: 0 16px;
+  max-width: 760px;
+}
+
+.brandRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.image {
+  max-height: 200px;
+}
+
+.title {
+  margin: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navbar > li {
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+  transition: border-color 120ms ease;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 2px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.navLink:hover {
+  border-bottom-color: #9ca3af;
+}
+
+.activeLink {
+  border-bottom-color: #111827;
+}
+
+.backButton {
+  display: block;
+  cursor: pointer;
+  margin: auto;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: transparent;
+  padding: 6px 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-bottom: 2em;
+    }
+    .stickyHeader > .container {
+        padding-bottom: 0;
+    }
+    .brandRow {
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .navbar {
+        justify-content: center;
+    }
+
+    .title {
+        margin-bottom: 0.2em;
+    }
+
+    .stickyHeader > .container > .brandRow > div > .title {
+        margin-bottom: 0.15em;
+        font-size: 1.25em;
+    }
+}
