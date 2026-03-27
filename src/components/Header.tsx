@@ -24,7 +24,7 @@ export default function Header({ topics }: HeaderProps) {
     <header className={`${styles.header} ${!isTopicPage && !isAllPage ? styles.stickyHeader : ""}`}>
       <div className={styles.container}>
         <div className={styles.brandRow}>
-            {isTopicPage || isAllPage ? <img src="/header.jpeg" alt="" className={styles.image} /> : null}
+            {isTopicPage || isAllPage ? <img src="/header.jpeg" alt="bild von mir" className={styles.image} /> : null}
           <div>
             <small><b><i>(emils)</i></b></small>
             <h1 className={styles.title}>blumen zum selberpflücken</h1>
